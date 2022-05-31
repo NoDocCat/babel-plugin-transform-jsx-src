@@ -2,6 +2,9 @@
   "name": "babel-plugin-transform-jsx-src",
   "version": "0.0.1",
   "description": "Convert static src to import in JSX",
+  "scripts": {
+    "preinstall": "npx -y only-allow pnpm"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NoDocCat/babel-plugin-transform-jsx-src.git"
@@ -17,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/NoDocCat/babel-plugin-transform-jsx-src/issues"
   },
-  "homepage": "https://github.com/NoDocCat/babel-plugin-transform-jsx-src#readme"
+  "homepage": "https://github.com/NoDocCat/babel-plugin-transform-jsx-src#readme",
+  "engineStrict": true,
+  "engines": {
+    "pnpm": ">=7"
+  }
 }
